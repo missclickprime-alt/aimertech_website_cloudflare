@@ -1,9 +1,0 @@
-AIMERTECH Phase 3 customer-perspective improvements
-1. Home first fold now explains customer value more directly: low wear, low noise, precision/clean use cases.
-2. Added customer value section and customer-point strip to help visitors understand benefits before technical details.
-3. Replaced potentially weak '10+ projects' proof with a safer 'R&D 기반 기술개발' message.
-4. Contact page has only one mailto CTA. Inquiry types are shown as non-click cards.
-5. Contact CTA now pre-fills email subject/body to reduce inquiry friction.
-6. Footer email is plain text to avoid scattering mailto links.
-7. Solution page includes customer-facing adoption review points.
-8. All images are served as WEBP; engineering-meeting image is replaced by a more realistic design-review meeting image.
