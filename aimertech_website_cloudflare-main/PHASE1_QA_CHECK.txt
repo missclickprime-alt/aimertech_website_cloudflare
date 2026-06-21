@@ -1,0 +1,7 @@
+no_user_icon: True
+no_logo_svg: True
+no_png_refs: True
+no_old_email: True
+no_placeholder_phone: True
+english_name_lowercase: True
+email_count: 19
