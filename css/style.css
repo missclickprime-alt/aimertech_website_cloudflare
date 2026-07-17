@@ -1289,3 +1289,13 @@ html {
     margin-bottom: 10px;
   }
 }
+
+.nowrap {
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .home-hero-v3 h1 {
+    font-size: 34px;
+  }
+}
