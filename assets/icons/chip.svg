@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true" role="img">
+  <defs>
+    <linearGradient id="bg" x1="10" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#DDEBFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="14" y1="12" x2="50" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#0F56C6"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="18" y1="18" x2="50" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#0A3A91" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+  <rect x="18" y="18" width="28" height="28" rx="5" fill="url(#bg)" stroke="#0A3E93" stroke-width="2.5"/>
+  <rect x="25" y="25" width="14" height="14" rx="2" fill="url(#accent2)" stroke="#0A3E93" stroke-width="2.3"/>
+  <path d="M23 12v6M32 12v6M41 12v6M23 46v6M32 46v6M41 46v6M12 23h6M12 32h6M12 41h6M46 23h6M46 32h6M46 41h6" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+</svg>

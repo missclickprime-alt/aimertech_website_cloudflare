@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true" role="img">
+  <defs>
+    <linearGradient id="bg" x1="10" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#DDEBFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="14" y1="12" x2="50" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#0F56C6"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="18" y1="18" x2="50" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#0A3A91" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+  <path d="M49 15C34.2 15 20 26.4 20 41.6c0 5.5 4.4 9.4 9.4 9.4 14.8 0 24.6-14.2 24.6-29 0-3.8-1-6.2-5-7z" fill="url(#bg)" stroke="#0A3E93" stroke-width="2.5"/>
+  <path d="M18 50c8.7-9.7 16.8-17 27.6-24.2M28 44c0-6 3.4-10.4 9.6-14.6" stroke="url(#accent)" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+</g>
+</svg>

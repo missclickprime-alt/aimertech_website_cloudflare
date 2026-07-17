@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-hidden="true" role="img">
+  <defs>
+    <linearGradient id="bg" x1="10" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#DDEBFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="14" y1="12" x2="50" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#0F56C6"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="18" y1="18" x2="50" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#0A3A91" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+  <path d="M13 50V27l12 6v-9l12 6V19l14 8v23z" fill="url(#bg)" stroke="#0A3E93" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M18 50V38h8v12M39 50V39h7v11M20 29v-7h7v10" stroke="url(#accent)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M13 50h38" stroke="#0A3E93" stroke-width="2.6" stroke-linecap="round"/>
+</g>
+</svg>
